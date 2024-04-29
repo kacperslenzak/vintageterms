@@ -90,7 +90,7 @@ nav.woocommerce-MyAccount-navigation {
 }
 
 //place order button
-.wc-block-checkout__actions_row .wc-block-components-checkout-place-order-button {
+.wc-block-checkout__actions_row .wc-block-components-checkout-place-order-button, .woocommerce table.my_account_orders .button {
   border: none;
   background-color: #000;
   color: #fff;

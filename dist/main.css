@@ -12191,7 +12191,7 @@ nav.woocommerce-MyAccount-navigation ul li a {
   color: #000;
 }
 
-.wc-block-checkout__actions_row .wc-block-components-checkout-place-order-button {
+.wc-block-checkout__actions_row .wc-block-components-checkout-place-order-button, .woocommerce table.my_account_orders .button {
   border: none;
   background-color: #000;
   color: #fff;
@@ -12199,7 +12199,7 @@ nav.woocommerce-MyAccount-navigation ul li a {
   font-weight: normal;
   text-transform: capitalize;
 }
-.wc-block-checkout__actions_row .wc-block-components-checkout-place-order-button:hover {
+.wc-block-checkout__actions_row .wc-block-components-checkout-place-order-button:hover, .woocommerce table.my_account_orders .button:hover {
   cursor: pointer;
   color: rgba(255, 255, 255, 0.5);
 }
