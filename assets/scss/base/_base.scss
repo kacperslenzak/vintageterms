@@ -1,0 +1,81 @@
+// theme colours
+$primary: #000;
+$secondary: #003F66;
+
+//navbar
+$navbar-light-color: #000;
+$navbar-light-hover-color: #000;
+$navbar-light-active-color: #000;
+
+//margins
+$enable-negative-margins: true;
+
+
+//butons
+a.jd-btn__primary{
+  background: none;
+  border: 5px solid white;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 22px;
+
+  &:after {
+    content:"";
+    margin-left: 8px;
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    background-image: url("../assets/images/arrow.png");
+  }
+
+  &:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+}
+
+a.jd-btn__secondary, .jd-btn__secondary > div > a{
+  background-color: #000;
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: normal;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 18px;
+  margin-top: 10px;
+
+  &:hover {
+    cursor: pointer;
+    color: rgba(#fff, 0.5);
+  }
+}
+
+//accordion
+$accordion-button-active-bg: #fff;
+$accordion-border-radius: 0;
+$accordion-border-width: 0;
+
+$accordion-button-focus-border-color: #fff;
+$accordion-button-focus-box-shadow: none;
+
+.accordion-item {
+  border-top: 1px solid #000 !important;
+  padding: 10px 0;
+
+  &:last-of-type{
+    border-bottom: 1px solid #000 !important;
+  }
+
+  li::marker {
+    content: "+ ";
+    font-weight: bold;
+  }
+}
+
+//dropdowns
+$dropdown-border-radius: 0;
+$dropdown-border-width: 1px;
+$dropdown-border-color: #000;

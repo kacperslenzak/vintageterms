@@ -1,0 +1,44 @@
+input[type=text], input[type=number], input[type=email], input[type=password], input[type=address], input[type=tel], textarea {
+  font-size: 16px;
+  line-height: 13px;
+  font-family: Helvetica, Helvetica Neue, Arial, Lucida Grande, sans-serif;
+  font-style: normal;
+  background: #fff;
+  color: #000;
+  border: 1px solid #bfbfbf;
+  padding: .8em 15px;
+  margin: 0;
+  vertical-align: middle;
+  max-width: 100%;
+  border-radius: 0;
+  -webkit-appearance: none;
+  box-sizing: border-box;
+}
+
+button[type=submit], input[type=submit] {
+  background: #000 !important;
+  border: 1px solid #000000 !important;;
+  color: #fff !important;;
+  font-size: 11px !important;;
+  line-height: 1em !important;;
+  height: auto !important;;
+  margin: 0 !important;;
+  text-decoration: none !important;
+  cursor: pointer !important;;
+  padding: 1.2em 25px !important;;
+  vertical-align: middle !important;;
+  text-align: center !important;;
+  border-radius: 0 !important;;
+  transition: background-color .1s, color .1s, border-color .1s, opacity .1s !important;;
+  display: inline-block !important;;
+  font-family: Helvetica, Helvetica Neue, Arial, Lucida Grande, sans-serif !important;;
+  font-weight: 700 !important;;
+  font-style: normal !important;;
+  letter-spacing: .08em !important;;
+  text-transform: uppercase !important;;
+  -webkit-tap-highlight-color: transparent !important;;
+}
+
+.form-check input[type=submit] {
+  margin-left: -25px !important;
+}
