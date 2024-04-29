@@ -73,11 +73,11 @@ if($products->have_posts()):
         <div class="row">
             <div class="col-md-12 text-center fw-bold text-uppercase">
                 <div class="arrows">
-                    <div class="left">
+                    <div class="left-arrow">
                         <img src="<?php echo get_template_directory_uri() ?>/assets/images/slider_arrow.png" alt="" width="auto" height="24px">
                     </div>
                     <h2>Latest Vintage</h2>
-                    <div class="right">
+                    <div class="right-arrow">
                         <img src="<?php echo get_template_directory_uri() ?>/assets/images/slider_arrow.png" alt="" width="auto" height="24px">
                     </div>
                 </div>

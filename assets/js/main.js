@@ -4,10 +4,10 @@ import 'bootstrap';
 import 'slick-carousel';
 
 $('.product_slider').slick({
-    slidesToShow: 6,
+    slidesToShow: 1,
     centerMode: true,
-    prevArrow: $('.left'),
-    nextArrow: $('.right'),
+    prevArrow: $('.left-arrow'),
+    nextArrow: $('.right-arrow'),
     responsive: [
         {
             breakpoint: 1920,
