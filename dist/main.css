@@ -12079,17 +12079,17 @@ section.latest_products .arrows {
 section.latest_products .arrows h2, section.latest_products .arrows .h2 {
   margin-bottom: 0;
 }
-section.latest_products .arrows .left, section.latest_products .arrows .right {
+section.latest_products .arrows .left-arrow, section.latest_products .arrows .right-arrow {
   display: flex;
   align-items: center;
 }
-section.latest_products .arrows .left:hover, section.latest_products .arrows .right:hover {
+section.latest_products .arrows .left-arrow:hover, section.latest_products .arrows .right-arrow:hover {
   cursor: pointer;
 }
-section.latest_products .arrows .left {
+section.latest_products .arrows .left-arrow {
   margin-right: 30px;
 }
-section.latest_products .arrows .right {
+section.latest_products .arrows .right-arrow {
   -webkit-transition: scaleX(-1);
   transform: scaleX(-1);
   margin-left: 30px;
