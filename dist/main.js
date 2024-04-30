@@ -3267,7 +3267,7 @@ window.$ = window.jQuery = (jquery__WEBPACK_IMPORTED_MODULE_0___default());
 
 
 $('.product_slider').slick({
-  slidesToShow: 1,
+  slidesToShow: 6,
   centerMode: true,
   prevArrow: $('.left-arrow'),
   nextArrow: $('.right-arrow'),

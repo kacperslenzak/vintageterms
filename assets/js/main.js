@@ -4,7 +4,7 @@ import 'bootstrap';
 import 'slick-carousel';
 
 $('.product_slider').slick({
-    slidesToShow: 1,
+    slidesToShow: 6,
     centerMode: true,
     prevArrow: $('.left-arrow'),
     nextArrow: $('.right-arrow'),
