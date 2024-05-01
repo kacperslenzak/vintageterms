@@ -137,3 +137,16 @@ nav.woocommerce-MyAccount-navigation {
     margin-top: 20px;
   }
 }
+
+//sold out badge
+.soldout {
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 8px 12px;
+}
