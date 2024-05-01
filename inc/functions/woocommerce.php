@@ -99,3 +99,38 @@ function bbloomer_remove_product_tabs( $tabs ) {
 	unset( $tabs['additional_information'] );
 	return $tabs;
 }
+
+/**
+ * @snippet       Read more > Out of stock @ WooCommerce Shop
+ * @how-to        Get CustomizeWoo.com FREE
+ * @author        Rodolfo Melogli
+ * @testedwith    WooCommerce 5
+ * @community     https://businessbloomer.com/club/
+ */
+
+add_filter( 'woocommerce_product_add_to_cart_text', 'bbloomer_archive_custom_cart_button_text' );
+
+function bbloomer_archive_custom_cart_button_text( $text ) {
+	global $product;
+	if ( $product && ! $product->is_in_stock() ) {
+		return 'Out of stock';
+	}
+	return $text;
+}
+
+/**
+ * @snippet       Display "Sold Out" on Loop Pages - WooCommerce
+ * @how-to        Get CustomizeWoo.com FREE
+ * @author        Rodolfo Melogli
+ * @testedwith    WooCommerce 4.6
+ * @community     https://businessbloomer.com/club/
+ */
+
+add_action( 'woocommerce_before_shop_loop_item_title', 'bbloomer_display_sold_out_loop_woocommerce' );
+
+function bbloomer_display_sold_out_loop_woocommerce() {
+	global $product;
+	if ( ! $product->is_in_stock() ) {
+		echo '<span class="soldout">Sold Out</span>';
+	}
+}
