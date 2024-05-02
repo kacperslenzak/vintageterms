@@ -105,7 +105,7 @@ nav.woocommerce-MyAccount-navigation {
 }
 
 //ajax add to cart button
-.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) a.button, .wc-block-grid__product-add-to-cart.wp-block-button .wp-block-button__link {
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) a.button, .wc-block-grid__product-add-to-cart.wp-block-button .wp-block-button__link, :where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce a.button {
   background-color: #000;
   color: #fff;
   font-size: 18px;
