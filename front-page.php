@@ -81,7 +81,7 @@ if($products->have_posts()):
                         <img src="<?php echo get_template_directory_uri() ?>/assets/images/slider_arrow.png" alt="" width="auto" height="24px">
                     </div>
                 </div>
-                <a href="#" class="fw-bold text-uppercase text-black">View All</a>
+                <a href="/shop/" class="fw-bold text-uppercase text-black">View All</a>
             </div>
         </div>
     </div>
